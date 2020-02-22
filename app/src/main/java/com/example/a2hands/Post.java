@@ -1,16 +1,8 @@
 package com.example.a2hands;
 
-import android.os.Parcel;
-import android.os.Parcelable;
-
-import com.google.firebase.firestore.DocumentReference;
 import com.google.firebase.firestore.IgnoreExtraProperties;
 import com.google.firebase.firestore.ServerTimestamp;
 
-import org.w3c.dom.Document;
-
-import java.lang.reflect.Array;
-import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 

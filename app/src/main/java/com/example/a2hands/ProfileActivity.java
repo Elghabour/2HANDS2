@@ -22,7 +22,6 @@ import android.widget.TextView;
 
 import com.example.a2hands.homePackage.PostFragment;
 import com.example.a2hands.homePackage.RatingFragment;
-import com.example.a2hands.homePackage.RatingsActivity;
 import com.example.a2hands.homePackage.dummy.DummyContent;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.OnFailureListener;
@@ -37,8 +36,6 @@ import com.squareup.picasso.Picasso;
 
 import java.text.DecimalFormat;
 import java.text.NumberFormat;
-
-import static java.lang.StrictMath.round;
 
 
 public class ProfileActivity extends AppCompatActivity  implements PostFragment.OnListFragmentInteractionListener , RatingFragment.OnListFragmentInteractionListener {
